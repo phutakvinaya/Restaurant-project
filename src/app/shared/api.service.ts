@@ -25,12 +25,19 @@ export class ApiService {
       return res;
     }));
   }
-  //delete request
-  deleteRestaurant(id:number) {
-    return this._http.delete<any>("http://localhost:3000/posts/"+id).pipe(map((res:any)=>{
-      return res;
-    }));
+
+  signupdata(){
+    return this._http.get<any>(' http://localhost:3000/signup').pipe(map((res) => {
+      return res
+    }))
   }
+
+  // //delete request
+  // deleteRestaurant(id:number) {
+  //   return this._http.delete<any>("http://localhost:3000/posts/"+id).pipe(map((res:any)=>{
+  //     return res;
+  //   }));
+  // }
   //update request
   updateRestaurant(id: number, data: any) {
     return this._http.put<any>("http://localhost:3000/posts/"+id,data).pipe(map((res:any)=>{

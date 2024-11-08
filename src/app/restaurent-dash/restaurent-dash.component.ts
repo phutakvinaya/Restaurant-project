@@ -74,7 +74,7 @@ export class RestaurentDashComponent implements OnInit {
     })
   }
 
-  onEditResto(data: any){
+  onEditResto1(data: any){
     this.showAdd = false;
     this.showBtn = true;
     
@@ -107,5 +107,20 @@ export class RestaurentDashComponent implements OnInit {
     
   }
 
+  // name: [''],
+  // email: [''],
+  // mobile: [''],
+  // address: [''],
+  // services
+  onEditResto(data:any){
+    this.showAdd = true;
+    this.showBtn = true;
+    console.log(data);
+    this.formValue.controls['name'].setValue(data.name);
+    this.formValue.controls['email'].setValue(data.email);
+    this.formValue.controls['mobile'].setValue(data.mobile);
+    this.formValue.controls['address'].setValue(data.address);
+    this.formValue.controls['services'].setValue(data.services)
+  }
   
 }

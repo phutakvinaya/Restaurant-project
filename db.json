@@ -1,15 +1,23 @@
 {
   "posts": [
     {
-      "id": 1,
-      "name": "arayan hotel 1",
+      "id": 2,
+      "name": "selection",
       "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
-      "email": "sdfaf@gmail.com",
-      "services": "chai , samosa",
-      "mobile": 7845581125
+      "email": "selection@abc.com",
+      "services": "chai",
+      "mobile": 78941252511
     },
     {
-      "id": 2,
+      "id": 3,
+      "name": "COMBO COMPANY",
+      "address": "Mumbai",
+      "email": "combo@abc.com",
+      "services": "biryani",
+      "mobile": 125478931
+    },
+    {
+      "id": 4,
       "name": "selection",
       "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
       "email": "selection@abc.com",
@@ -31,6 +39,20 @@
       "mobile": 3164631649,
       "password": "passowrd@123",
       "id": 2
+    },
+    {
+      "name": "v",
+      "email": "v",
+      "mobile": 5456346546,
+      "password": "s",
+      "id": 3
+    },
+    {
+      "name": "vinaya",
+      "email": "v@gmail.com",
+      "mobile": 123456789,
+      "password": "abc",
+      "id": 4
     }
   ],
   "comments": [],
